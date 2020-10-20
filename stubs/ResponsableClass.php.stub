@@ -1,0 +1,29 @@
+<?php 
+
+
+namespace DummyNamespace;
+
+use Illuminate\Contracts\Support\Responsable;
+
+class DummyClass implements Responsable
+{
+	public array $props;
+	
+	public function __construct(array $data=[])
+	{
+		$this->props = array_merge($this->getDefaultProps() , $data);
+	}
+
+	public function toResponse($request)
+	{
+		// return view('' , $this->props);
+	}
+
+	private function getDefaultProps()
+	{
+		return [
+
+		];
+	}
+
+} 
