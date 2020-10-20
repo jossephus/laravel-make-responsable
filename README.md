@@ -5,7 +5,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/jossephus/make-responsable.svg?style=flat-square)](https://scrutinizer-ci.com/g/jossephus/make-responsable)
 [![Total Downloads](https://img.shields.io/packagist/dt/jossephus/make-responsable.svg?style=flat-square)](https://packagist.org/packages/jossephus/make-responsable)
 
-After reading a blog post by Wilbur Powery about Responsable interface I have been using responsable interfaces a lot. Read about Responsable interfaces here. [Laravel's Responsable Interface ](https://willbutpowery.dev/the-laravel-responsable-interface/) . This simple package simplifies the process of generating  a new class that implements the responsable interface.  
+After reading a blog post by Wilbur Powery about Responsable interface I have been using responsable interfaces a lot. Read about Responsable interfaces here. [Laravel's Responsable Interface ](https://wilburpowery.dev/the-laravel-responsable-interface/) . This simple package simplifies the process of generating  a new class that implements the responsable interface.  
 
 ## Installation
 
